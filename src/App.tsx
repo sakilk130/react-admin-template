@@ -4,6 +4,7 @@ import SideBar from './components/sidebar';
 import TopBar from './components/topbar';
 import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
+import InvoicesPage from './pages/invoices';
 import TeamPage from './pages/team';
 import { ColorModeContext, useMode } from './theme';
 
@@ -21,6 +22,7 @@ function App() {
               <Route path="/" element={<DashboardPage />} />
               <Route path="/team" element={<TeamPage />} />
               <Route path="/contacts" element={<ContactsPage />} />
+              <Route path="/invoices" element={<InvoicesPage />} />
             </Routes>
           </main>
         </div>
