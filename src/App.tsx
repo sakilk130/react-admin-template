@@ -2,9 +2,11 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import SideBar from './components/sidebar';
 import TopBar from './components/topbar';
+import CalenderPage from './pages/calendar';
 import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
 import InvoicesPage from './pages/invoices';
+import ProfileForm from './pages/profile-form';
 import TeamPage from './pages/team';
 import { ColorModeContext, useMode } from './theme';
 
@@ -23,6 +25,8 @@ function App() {
               <Route path="/team" element={<TeamPage />} />
               <Route path="/contacts" element={<ContactsPage />} />
               <Route path="/invoices" element={<InvoicesPage />} />
+              <Route path="/form" element={<ProfileForm />} />
+              <Route path="/calendar" element={<CalenderPage />} />
             </Routes>
           </main>
         </div>

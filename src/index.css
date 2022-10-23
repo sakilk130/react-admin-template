@@ -33,3 +33,10 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.rbc-today {
+  background-color: #242323 !important;
+}
+.rbc-off-range-bg {
+  background-color: #e0e0e0 !important;
+}
