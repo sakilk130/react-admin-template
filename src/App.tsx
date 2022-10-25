@@ -8,6 +8,7 @@ import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
 import FAQPage from './pages/faq';
 import InvoicesPage from './pages/invoices';
+import LinePage from './pages/line';
 import PiePage from './pages/pie';
 import ProfileForm from './pages/profile-form';
 import TeamPage from './pages/team';
@@ -33,6 +34,7 @@ function App() {
               <Route path="/faq" element={<FAQPage />} />
               <Route path="/bar" element={<BarPage />} />
               <Route path="/pie" element={<PiePage />} />
+              <Route path="/line" element={<LinePage />} />
             </Routes>
           </main>
         </div>
