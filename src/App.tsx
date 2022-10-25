@@ -2,6 +2,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import SideBar from './components/sidebar';
 import TopBar from './components/topbar';
+import BarPage from './pages/bar';
 import CalenderPage from './pages/calendar';
 import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
@@ -29,6 +30,7 @@ function App() {
               <Route path="/form" element={<ProfileForm />} />
               <Route path="/calendar" element={<CalenderPage />} />
               <Route path="/faq" element={<FAQPage />} />
+              <Route path="/bar" element={<BarPage />} />
             </Routes>
           </main>
         </div>
