@@ -7,6 +7,7 @@ import CalenderPage from './pages/calendar';
 import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
 import FAQPage from './pages/faq';
+import GeographyPage from './pages/geography';
 import InvoicesPage from './pages/invoices';
 import LinePage from './pages/line';
 import PiePage from './pages/pie';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/bar" element={<BarPage />} />
               <Route path="/pie" element={<PiePage />} />
               <Route path="/line" element={<LinePage />} />
+              <Route path="/geography" element={<GeographyPage />} />
             </Routes>
           </main>
         </div>
