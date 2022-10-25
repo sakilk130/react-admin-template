@@ -8,6 +8,7 @@ import ContactsPage from './pages/contacts';
 import DashboardPage from './pages/dashboard';
 import FAQPage from './pages/faq';
 import InvoicesPage from './pages/invoices';
+import PiePage from './pages/pie';
 import ProfileForm from './pages/profile-form';
 import TeamPage from './pages/team';
 import { ColorModeContext, useMode } from './theme';
@@ -31,6 +32,7 @@ function App() {
               <Route path="/calendar" element={<CalenderPage />} />
               <Route path="/faq" element={<FAQPage />} />
               <Route path="/bar" element={<BarPage />} />
+              <Route path="/pie" element={<PiePage />} />
             </Routes>
           </main>
         </div>
